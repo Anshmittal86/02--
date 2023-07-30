@@ -4,7 +4,7 @@ let second = document.getElementById("second")
 
 function displayTime() {
   let date = new Date();
-   
+
   //Getting hour, minutes, seconds
   let hh = date.getHours();
   let mm = date.getMinutes();
@@ -19,5 +19,6 @@ function displayTime() {
   second.style.cssText = `rotate: ${sRotation}deg;`
  
 }
+
 
 setInterval(displayTime, 1000)
