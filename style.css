@@ -81,7 +81,7 @@ body {
   }
 
   .div__clock span {
-    font-size: 17px;
+    font-size: 19px;
   }
   
   .div__clock::before {
@@ -92,7 +92,7 @@ body {
   }
 
   .div__clock .hand:nth-child(1) i {
-    height: 50px;
+    height: 60px;
   }
 
   .div__clock .hand:nth-child(2) i {
